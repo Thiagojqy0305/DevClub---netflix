@@ -5,6 +5,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
+    position: relative;
+    padding-bottom: 100px;
 }
 
 ul{
@@ -14,6 +16,7 @@ ul{
     justify-content: space-between;
     list-style-type: none;
     position: fixed;
+    margin-top: 7px;
 }
 
 .image-logo,.avatar-perfil{
@@ -35,14 +38,14 @@ video{
 
 .container-titulo {
     color: white;
-    font-size: 60px; /* Tamanho da fonte */
+    font-size: 50px; /* Tamanho da fonte */
     margin-bottom: 5px;
     font-weight: bold; /* Grossura da fonte */
 }
 
 .container-descricao {
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     margin-bottom: 20px;
 }
 
@@ -62,4 +65,21 @@ video{
     border-radius: 4px;
     cursor: pointer;
     text-decoration: none;
+}
+
+.imagem-carrossel{
+    height: 150px;
+}
+
+#carouselExampleControls{
+    background-color: transparent;
+    position: absolute;
+    bottom: -30px;
+    left: 70px;
+}
+
+.titulo-carrossel{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
