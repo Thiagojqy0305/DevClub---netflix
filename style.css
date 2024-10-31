@@ -7,6 +7,7 @@ body{
     font-family: "Montserrat", sans-serif;
     position: relative;
     padding-bottom: 100px;
+    padding-top: 20px;
 }
 
 ul{
@@ -30,7 +31,7 @@ video{
 
 .container {
     position: absolute;
-    bottom: 20%;
+    bottom: 30%;
     left: 5%;
     width: 35%;
     z-index: 3; /* traz para frente dos outros valores */
@@ -81,5 +82,15 @@ video{
 .titulo-carrossel{
     color: white;
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.botao-som {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 4;
+    position: absolute;
+    bottom: 190px;
+    right: 40px;
 }
