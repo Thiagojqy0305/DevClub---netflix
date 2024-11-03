@@ -1,12 +1,13 @@
 let botaoSom = document.querySelector(".botao-som");
 let video = document.querySelector(".video");
 let botao = document.querySelector(".container-info");
-let modal  = document.querySelector(".modal");
+let modal = document.querySelector(".modal");
+let audio = document.querySelector(".audio");
 
 // Ligar o Som
 botaoSom.addEventListener("click", ligaSom);
 
-function ligaSom(){
+function ligaSom() {
     video.muted = false
 };
 
@@ -18,6 +19,14 @@ function mostrarModal() {
     modal.style.display = "block"
 };
 
-function esconderModal(){
+function esconderModal() {
     modal.style.display = "none"
-}
+};
+
+// Som de entrada da Netflix
+
+window.addEventListener("load", tocarAudio);
+
+function tocarAudio() {
+    audio.play()
+};
