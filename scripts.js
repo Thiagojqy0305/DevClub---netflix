@@ -28,5 +28,5 @@ function esconderModal() {
 window.addEventListener("load", tocarAudio);
 
 function tocarAudio() {
-    audio.play()
+    audio.play();
 };
